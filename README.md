@@ -62,7 +62,7 @@ The makefile will probably work only on linux, but it is simple enough to be por
 Usage
 -----
 
-	`xbrztool scale_factor input_image output_image`
+	xbrztool scale_factor input_image output_image
 
 * `scale_factor` - Controls how much your image should be scaled. It should be an integer between 2 and 5 (inclusive).
 * `input_image` - Input image is the filename of the image you want to scale. Image format can be anything that SDL_image supports.
